@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Портфолио — Ксения Балашова</title>
+    <meta name="description" content="Все работы Ксении Балашовой: бронзовые скульптуры и живопись." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Ксения Балашова</a>
+        <nav class="nav">
+          <a href="#top" aria-current="page">Портфолио</a>
+          <a href="index.html#about">Обо мне</a>
+          <a class="button button--ghost" href="index.html#contact">Звонок</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="section container">
+      <div class="section-head">
+        <h1>Все работы</h1>
+        <p>Фильтруйте по категориям и выбирайте вид отображения.</p>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters" role="tablist" aria-label="Фильтр работ">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Все</button>
+          <button class="filter" data-filter="sculpture" role="tab" aria-selected="false">Скульптуры (бронза)</button>
+          <button class="filter" data-filter="painting" role="tab" aria-selected="false">Картины</button>
+        </div>
+        <div class="view-controls" aria-label="Переключатель вида">
+          <span class="view-label">Вид:</span>
+          <button class="view is-active" data-view="grid" title="Равномерная сетка">Сетка</button>
+          <button class="view" data-view="masonry" title="Мозаика без обрезки">Мозаика</button>
+        </div>
+      </div>
+
+      <div class="grid" id="workGrid" aria-live="polite"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+

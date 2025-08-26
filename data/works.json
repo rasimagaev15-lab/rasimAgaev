@@ -1,0 +1,60 @@
+[
+  {
+    "id": "w1",
+    "category": "sculpture",
+    "title": "Часы «Птица времени»",
+    "material": "Дерево, резьба по дереву, стекло",
+    "year": "2020",
+    "description": "Мастерская резьба по дереву в виде величественной птицы, держащей на спине круглые часы с мраморным циферблатом. Каждое перо и линия тела выполнены с невероятной детализацией, передавая динамику и живость образа. Работа сочетает в себе элементы барокко и фантазийного реализма, создавая ощущение гармонии между природой и временем. Установка идеально подходит для интерьеров в классическом или эклектичном стиле.",
+    "cover": "https://i.ibb.co/ymtcCsD4/IMG-20250821-WA0010.jpg",
+    "thumb": "https://i.ibb.co/ymtcCsD4/IMG-20250821-WA0010.jpg",
+    "images": [
+      "https://i.ibb.co/ymtcCsD4/IMG-20250821-WA0010.jpg",
+      "https://i.ibb.co/dJtQzx8c/IMG-20250821-WA0009.jpg",
+      "https://i.ibb.co/zhJpxh7c/IMG-20250821-WA0008.jpg",
+      "https://i.ibb.co/JW45929L/IMG-20250821-WA0013.jpg"
+    ]
+  },
+  {
+    "id": "w2",
+    "category": "painting",
+    "title": "Работа 2",
+    "material": "Холст, масло",
+    "year": "2021",
+    "description": "Черновое описание работы.",
+    "cover": "https://i.ibb.co/93nQ38bC/IMG-20250821-WA0030.jpg",
+    "thumb": "https://i.ibb.co/93nQ38bC/IMG-20250821-WA0030.jpg",
+    "images": [
+      "https://i.ibb.co/93nQ38bC/IMG-20250821-WA0030.jpg"
+    ]
+  },
+  {
+    "id": "w3",
+    "category": "painting",
+    "title": "Работа 2",
+    "material": "Холст, масло",
+    "year": "2021",
+    "description": "Черновое описание работы.",
+    "cover": "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+    "thumb": "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+    "images": [
+      "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+      "https://i.ibb.co/0RH4vB2B/190415-rodeo-week-17.jpg"
+    ]
+  },
+  {
+    "id": "w4",
+    "category": "painting",
+    "title": "Работа 2",
+    "material": "Холст, масло",
+    "year": "2021",
+    "description": "Черновое описание работы.",
+    "cover": "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+    "thumb": "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+    "images": [
+      "https://i.ibb.co/XfJWfTn4/p1-4345158-710e22df.jpg",
+      "https://i.ibb.co/0RH4vB2B/190415-rodeo-week-17.jpg"
+    ]
+  }
+]
+

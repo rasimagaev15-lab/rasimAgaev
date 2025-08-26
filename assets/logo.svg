@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0f1012"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#35ff62"/>
+      <stop offset="100%" stop-color="#23e653"/>
+    </linearGradient>
+    <!-- Маска, чтобы соединители не заходили под узлы -->
+    <mask id="cut" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" fill="#fff"/>
+      <!-- те же размеры узлов, но немного больше, чтобы создать аккуратный разрыв -->
+      <rect x="206" y="96" width="100" height="100" rx="26" fill="#000"/>
+      <rect x="100" y="286" width="100" height="100" rx="26" fill="#000"/>
+      <rect x="320" y="286" width="100" height="100" rx="26" fill="#000"/>
+    </mask>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="512" height="512" rx="36" fill="url(#bg)"/>
+
+  <!-- Соединители (равносторонний треугольник) -->
+  <g stroke="#2c2d2f" stroke-width="28" stroke-linecap="round" fill="none" mask="url(#cut)">
+    <!-- left ↔ top -->
+    <line x1="160" y1="340" x2="256" y2="148"/>
+    <!-- top ↔ right -->
+    <line x1="256" y1="148" x2="352" y2="340"/>
+    <!-- left ↔ right -->
+    <line x1="160" y1="340" x2="352" y2="340"/>
+  </g>
+
+  <!-- Узлы -->
+  <g fill="url(#green)">
+    <!-- размеры узлов 92x92, центры: (256,148), (160,340), (352,340) -->
+    <rect x="210" y="102" width="92" height="92" rx="24"/>
+    <rect x="114" y="294" width="92" height="92" rx="24"/>
+    <rect x="306" y="294" width="92" height="92" rx="24"/>
+  </g>
+</svg>
+
